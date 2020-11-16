@@ -1,0 +1,9 @@
+---
+applications:
+ - name: dogs-breed-classification-app
+   random-random: true
+   memory: 128M
+   path: /resources/labs/CV0101EN/CV0101EN-capstone-project/app/
+   buildpacks:
+      - python_buildpack
+   command: python3 server.py
